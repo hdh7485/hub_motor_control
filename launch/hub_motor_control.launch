@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="hub_motor_control" name="hub_motor_control" type="hub_motor_control" output="screen">
+    <param name="port" type="string" value="/dev/ttyUSB0"/>
+    <param name="baudrate" type="int" value="19200"/>
+    <param name="timeout" type="int" value="1000"/>
+  </node>
+
+</launch>
